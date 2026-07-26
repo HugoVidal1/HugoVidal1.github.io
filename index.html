@@ -1,0 +1,321 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Hugo Vidal — AI and robotics researcher working on learning, control and complex systems."
+    />
+    <meta name="theme-color" content="#f8fafc" />
+    <title>Hugo Vidal — Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <aside class="sidebar" aria-label="Main navigation">
+      <a class="side-logo" href="#about" aria-label="Home">HV</a>
+      <nav>
+        <a class="nav-link active" href="#about" aria-label="About" data-label="About">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5.5A1.5 1.5 0 0 1 5.5 4h13A1.5 1.5 0 0 1 20 5.5v13a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 4 18.5zM9 4v16"/></svg>
+        </a>
+        <a class="nav-link" href="#background" aria-label="Background" data-label="Background">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2M9 11a4 4 0 1 0 0-8 4 4 0 0 0 0 8M22 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+        </a>
+        <a class="nav-link" href="#projects" aria-label="Projects" data-label="Projects">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.1-3.1a6 6 0 0 1-7.9 7.9l-5.7 5.7a2.1 2.1 0 0 1-3-3l5.7-5.7a6 6 0 0 1 7.9-7.9z"/></svg>
+        </a>
+      </nav>
+      <button class="theme-toggle" type="button" aria-label="Switch theme">
+        <svg class="sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.42 1.42M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.42-1.42M17.66 6.34l1.41-1.41"/></svg>
+        <svg class="moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+      </button>
+    </aside>
+
+    <main>
+      <section class="intro-section" id="about">
+        <article class="profile-card">
+          <div class="avatar" aria-hidden="true">
+            <span>HV</span>
+            <div class="orbit"></div>
+          </div>
+          <h1>Hugo Vidal</h1>
+          <p class="role">AI &amp; Robotics Researcher</p>
+          <p class="specialty">Learning · Control · Complex systems</p>
+          <div class="profile-links">
+            <a href="mailto:hugo.vidal@etu.minesparis.psl.eu" aria-label="Send Hugo an email">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 4h16a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2zM22 6l-10 7L2 6"/></svg>
+              Email
+            </a>
+            <a href="https://github.com/HugoVidal1" target="_blank" rel="noreferrer" aria-label="GitHub profile">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3.3-.4 6.8-1.6 6.8-7A5.4 5.4 0 0 0 19.4 4 5 5 0 0 0 19.3.5S18.2.1 15 1.8a13.4 13.4 0 0 0-7 0C4.8.1 3.7.5 3.7.5A5 5 0 0 0 3.6 4a5.4 5.4 0 0 0-1.4 3.7c0 5.4 3.5 6.6 6.8 7A4.8 4.8 0 0 0 8 18v4M8 19c-3 .9-3-1.5-4.2-2"/></svg>
+              GitHub
+            </a>
+          </div>
+        </article>
+
+        <article class="about">
+          <p class="section-kicker">Hi, I’m Hugo 👋</p>
+          <h2>I build intelligent systems that learn, move and adapt to complex environments.</h2>
+          <p>
+            I am an AI and robotics researcher with a background in physics,
+            currently pursuing a dual degree in computer science at Mines
+            Paris–PSL. I work at the intersection of learning, control and
+            complex physical systems.
+          </p>
+          <p>
+            My research ranges from reinforcement-learning locomotion for
+            autonomous robots to representation learning, robot swarms and
+            scientific machine learning.
+          </p>
+          <a class="inline-link" href="#projects">View my projects <span>↓</span></a>
+        </article>
+      </section>
+
+      <section class="focus-section" aria-labelledby="focus-title">
+        <div class="section-title">
+          <span>Focus</span>
+          <div>
+            <h2 id="focus-title">Research areas</h2>
+            <p>Where artificial intelligence meets the physical world</p>
+          </div>
+        </div>
+        <div class="focus-grid">
+          <article class="focus-card">
+            <span class="focus-number">01</span>
+            <h3>Artificial Intelligence</h3>
+            <p>Representation learning, deep learning and generative models grounded in theory.</p>
+          </article>
+          <article class="focus-card">
+            <span class="focus-number">02</span>
+            <h3>Robotics</h3>
+            <p>Reinforcement learning, simulation and control for autonomous robotic systems.</p>
+          </article>
+          <article class="focus-card">
+            <span class="focus-number">03</span>
+            <h3>Complex Systems</h3>
+            <p>Collective behavior, statistical physics and learning dynamics across scales.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="background">
+        <div class="section-title">
+          <span>01</span>
+          <div>
+            <h2>Background</h2>
+            <p>Education and recent experience</p>
+          </div>
+        </div>
+
+        <div class="two-columns">
+          <article class="panel">
+            <h3>
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m2 10 10-5 10 5-10 5zM6 12.5V17c3 2.3 9 2.3 12 0v-4.5M22 10v6"/></svg>
+              Education
+            </h3>
+            <div class="timeline-item">
+              <span class="marker">M</span>
+              <div>
+                <h4>Mines Paris – PSL</h4>
+                <p class="date">M.Sc. Computer Science · 2025 — Present</p>
+                <p>Digital engineering for complex systems</p>
+              </div>
+            </div>
+            <div class="timeline-item">
+              <span class="marker">E</span>
+              <div>
+                <h4>ESPCI Paris – PSL</h4>
+                <p class="date">M.Sc. Physics · 2022 — 2025</p>
+                <p>Statistical physics, optimization and scientific computing</p>
+              </div>
+            </div>
+            <div class="timeline-item">
+              <span class="marker">L</span>
+              <div>
+                <h4>Lycée Lakanal</h4>
+                <p class="date">Preparatory classes · 2019 — 2021</p>
+                <p>Top 3% nationwide in competitive entrance examinations</p>
+              </div>
+            </div>
+          </article>
+
+          <article class="panel">
+            <h3>
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 6V4h6v2M4 7h16a1 1 0 0 1 1 1v11a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V8a1 1 0 0 1 1-1zM3 12h18M10 12v2h4v-2"/></svg>
+              Experience
+            </h3>
+            <div class="timeline-item">
+              <span class="marker purple">ET</span>
+              <div>
+                <h4>Enchanted Tools</h4>
+                <p class="date">Research Engineer Intern · Mar. — Sep. 2026</p>
+                <p>Reinforcement learning and simulation for a ballbot</p>
+              </div>
+            </div>
+            <div class="timeline-item">
+              <span class="marker blue">E</span>
+              <div>
+                <h4>EPFL</h4>
+                <p class="date">ML Theory Research Intern · Apr. — Jul. 2025</p>
+                <p>Constrained neural network training and feature dynamics</p>
+              </div>
+            </div>
+            <div class="timeline-item">
+              <span class="marker orange">GL</span>
+              <div>
+                <h4>Gulliver Laboratory</h4>
+                <p class="date">Graduate Researcher · Jan. — Apr. 2025</p>
+                <p>Deep Q-Learning and emergent behavior in robot swarms</p>
+              </div>
+            </div>
+            <div class="timeline-item">
+              <span class="marker green">G</span>
+              <div>
+                <h4>Greenerwave</h4>
+                <p class="date">R&amp;D Engineer Intern · Jul. — Dec. 2024</p>
+                <p>Random matrix theory and RF resonator prototyping</p>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section id="projects">
+        <div class="section-title">
+          <span>02</span>
+          <div>
+            <h2>Selected work</h2>
+            <p>AI and robotics research in complex environments</p>
+          </div>
+        </div>
+
+        <div class="projects-grid">
+          <article class="project">
+            <div class="project-icon ai" aria-hidden="true">
+              <i></i><i></i><i></i><i></i><i></i><i></i>
+            </div>
+            <div class="project-copy">
+              <div class="project-heading">
+                <h3>Learning-Based Ballbot Control</h3>
+                <span>Enchanted Tools</span>
+              </div>
+              <p>
+                Reinforcement-learning locomotion and navigation for a robot
+                rolling on a sphere, trained in high-fidelity Isaac Lab simulations.
+              </p>
+              <div class="tags"><span>Reinforcement learning</span><span>Isaac Lab</span><span>Robotics</span></div>
+              <span class="project-action muted">Report in preparation</span>
+            </div>
+          </article>
+
+          <a
+            class="project project-clickable"
+            href="documents/first-layer-training-report.pdf"
+            target="_blank"
+            rel="noreferrer"
+            aria-label="Open the constrained representation learning report"
+          >
+            <div class="project-icon language" aria-hidden="true">NN</div>
+            <div class="project-copy">
+              <div class="project-heading">
+                <h3>Constrained Representation Learning</h3>
+                <span>EPFL</span>
+              </div>
+              <p>
+                Experimental and analytical study of how partially trained
+                neural networks learn meaningful internal representations.
+              </p>
+              <div class="tags"><span>ML theory</span><span>PyTorch</span><span>Representation learning</span></div>
+              <span class="project-action">Open report <span>↗</span></span>
+            </div>
+          </a>
+
+          <a
+            class="project project-clickable"
+            href="documents/smart_active_matter_pogobots.pdf"
+            target="_blank"
+            rel="noreferrer"
+            aria-label="Open the decentralized learning in smart active matter report"
+          >
+            <div class="project-icon data" aria-hidden="true">
+              <i></i><i></i><i></i><i></i><i></i>
+            </div>
+            <div class="project-copy">
+              <div class="project-heading">
+                <h3>Decentralized Learning in Smart Active Matter</h3>
+                <span>Gulliver Lab</span>
+              </div>
+              <p>
+                An experimental Pogobot platform combining vibration-driven
+                locomotion, local policy exchange, overhead tracking and optical
+                telemetry to study collective learning.
+              </p>
+              <div class="tags"><span>Smart active matter</span><span>Swarm robotics</span><span>Computer vision</span></div>
+              <span class="project-action">Open report <span>↗</span></span>
+            </div>
+          </a>
+
+          <a
+            class="project project-clickable"
+            href="documents/greenerwave-rf-research-report.pdf"
+            target="_blank"
+            rel="noreferrer"
+            aria-label="Open the Greenerwave RF research report"
+          >
+            <div class="project-icon rf" aria-hidden="true">
+              <span></span><span></span><span></span>
+              <i></i>
+            </div>
+            <div class="project-copy">
+              <div class="project-heading">
+                <h3>Reconfigurable RF Metasurface</h3>
+                <span>Greenerwave</span>
+              </div>
+              <p>
+                Design and CST optimization of a four-state phase-shifting unit
+                cell for energy-efficient reconfigurable reflectarray antennas.
+              </p>
+              <div class="tags"><span>RF engineering</span><span>CST Studio</span><span>Metasurfaces</span></div>
+              <span class="project-action">Open report <span>↗</span></span>
+            </div>
+          </a>
+        </div>
+      </section>
+
+      <section class="skills-section">
+        <div class="section-title">
+          <span>03</span>
+          <div>
+            <h2>Skills</h2>
+            <p>Tools and areas of expertise</p>
+          </div>
+        </div>
+        <div class="skills">
+          <span>Artificial Intelligence</span><span>Robotics</span>
+          <span>Complex Systems</span><span>Reinforcement Learning</span>
+          <span>Representation Learning</span><span>Scientific Machine Learning</span>
+          <span>Deep Learning</span><span>Multi-Agent Systems</span>
+          <span>Simulation</span><span>Control</span><span>Python</span>
+          <span>PyTorch</span><span>NVIDIA Isaac Lab</span><span>NumPy</span>
+          <span>SciPy</span><span>Scikit-Learn</span><span>MATLAB</span>
+          <span>Git</span>
+        </div>
+      </section>
+
+      <footer>
+        <p>Would you like to discuss a project?</p>
+        <a href="mailto:hugo.vidal@etu.minesparis.psl.eu">
+          Send me an email <span>↗</span>
+        </a>
+        <small>© <span id="year"></span> Hugo Vidal</small>
+      </footer>
+    </main>
+  </body>
+</html>
