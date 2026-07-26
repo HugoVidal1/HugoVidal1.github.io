@@ -294,6 +294,12 @@ section { scroll-margin-top: 40px; margin-bottom: 80px; }
   width: 58px;
   height: 30px;
 }
+.institution-logo.logo-mines img {
+  width: 56px;
+  height: 36px;
+  object-fit: cover;
+  object-position: left center;
+}
 .institution-logo.logo-enchanted {
   background: #fff;
   border-color: var(--border);
