@@ -151,6 +151,13 @@ section { scroll-margin-top: 40px; margin-bottom: 80px; }
 }
 .about > p:not(.section-kicker) { margin: 0 0 14px; color: var(--muted); font-size: 15px; }
 .about strong { color: var(--text); font-weight: 600; }
+.about .text-link {
+  color: var(--text);
+  font-weight: 600;
+  text-decoration: underline;
+  text-decoration-color: var(--accent);
+  text-underline-offset: 3px;
+}
 .inline-link {
   display: inline-flex;
   gap: 8px;
